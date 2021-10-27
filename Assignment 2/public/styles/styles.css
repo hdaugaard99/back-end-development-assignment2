@@ -1,0 +1,31 @@
+#home {
+    background-image: linear-gradient(to top, rgb(32, 30, 161), rgb(44, 193, 204));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#homeMain {
+    margin-top: 35vh;
+    display: grid;
+    grid-row: 3 / 5;
+    grid-column: 3 / 5;
+    justify-content: center;
+    align-content: center;
+}
+
+#home h1 {
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+
+#home button {
+    width: 40%;
+    margin-left: 30%;
+    background-color:rgb(44, 193, 204);
+    color: white;
+    border: none;
+    font-size: 3em;
+    padding: 20px;
+    
+    
+}
